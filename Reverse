@@ -1,3 +1,4 @@
-number = range(2,31,2)
-for i in reversed(number):
-    print(i)
+name = input("Enter a word to reverse it: ")
+for i in reversed(name):
+    print(i,end='')
+print('')
